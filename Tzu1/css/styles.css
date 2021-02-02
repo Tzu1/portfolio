@@ -10246,18 +10246,18 @@ form .row:first-child .floating-label-form-group {
   left: 50%;
   transform: translate(-50%,0);
   width: calc(100% - 1rem);
-  margin-top: 1rem;
+  margin-top: 0rem;
   margin-bottom: 1rem;
 }
 
-.portfolio_row{
-display: flex;
+.row{
+  display: flex;
 }
 
-.portfolio_row:nth-child(odd){
+.row:nth-child(odd){
 	justify-content: flex-start;
 }
-.portfolio_row:nth-child(even){
+.row:nth-child(even){
 	justify-content: flex-end;
 }
 
