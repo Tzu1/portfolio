@@ -1,0 +1,123 @@
+/* Common */
+
+
+/* About */
+
+.homepage-about .heading{
+	font-size: 34px;
+	font-weight: 300;
+	padding-bottom: 32px;
+	margin-bottom: 32px;
+}
+.homepage-about .heading:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 40px;
+	height: 4px;
+	background-color: #6772E5;
+}
+.homepage-about .para{
+	margin-bottom: 24px;
+}
+
+/* Service */
+.homepage-service .card{
+	padding: 40px;
+	text-align: center;
+}
+.homepage-service .icon{
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	margin-bottom: 24px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.homepage-service .icon.icon-idea{
+	background-image: url('../images/common/idea.svg');
+}
+.homepage-service .icon.icon-money{
+	background-image: url('../images/common/money.svg');
+}
+.homepage-service .icon.icon-transport{
+	background-image: url('../images/common/transport.svg');
+}
+.homepage-service .heading{
+	color: #6772E5;
+	margin-bottom: 24px;
+}
+.homepage-service .btn-group{
+	width: 100%;
+	justify-content: center;
+	margin-top: 48px;
+}
+
+/* Project */
+.homepage-project .project-item:not(:last-child){
+	margin-bottom: 160px;
+}
+.homepage-project .heading{
+	font-size: 48px;
+	font-weight: 300;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-shadow: 2px 10px 8px rgba(103,114,229,0.25);
+}
+.homepage-project .heading.heading--left{
+	margin-left: -64px;
+}
+.homepage-project .heading:after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 64px;
+	height: 4px;
+	background-color: #6772E5;
+}
+.homepage-project .para{
+	margin-bottom: 24px;
+}
+
+/* Designer */
+.homepage-designer .card{
+	padding: 48px;
+	text-align: center;
+}
+.homepage-designer .card .avatar{
+	margin-bottom: 16px;
+}
+.homepage-designer .card .heading{
+	margin-bottom: 16px;
+}
+.homepage-designer .card .para{
+	margin-bottom: 16px;
+}
+
+/* Quote */
+.homepage-quote{
+	text-align: center;
+}
+.homepage-quote .fas{
+	color: #6772E5;
+	font-size: 48px;
+	margin-bottom: 32px;
+}
+
+/* Contact */
+.homepage-contact{
+	text-align: center;
+	background-image: url('../images/bg/bg002.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.homepage-contact .heading{
+	margin-bottom: 16px;
+}
+.homepage-contact .para{
+	margin-bottom: 32px;
+}
