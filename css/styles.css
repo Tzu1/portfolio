@@ -393,7 +393,7 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .display-1 {
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f3c0d5 !important;
+  background-color: #faf8f2 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9833,7 +9833,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #343a40 !important;
+  color: #5a5a5a !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -10117,8 +10117,8 @@ h3 {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -10263,6 +10263,7 @@ form .row:first-child .floating-label-form-group {
 
 ul.about{
   line-height: 2rem;
+  font-weight: normal;
 }
 
 .list-group{
@@ -10281,7 +10282,7 @@ font-weight: bold;
   justify-content: center;
   align-items: center;
 }
-.divider-custom .divider-custom-line.homepage {
+.divider-custom .divider-custom-line {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
@@ -10295,14 +10296,14 @@ font-weight: bold;
 .divider-custom .divider-custom-line:last-child {
   margin-left: 1rem;
 }
-.divider-custom .divider-custom-icon.homepage{
+.divider-custom .divider-custom-icon{
   color: #f3c0d5 !important;
   font-size: 2rem;
 }
-.divider-custom.divider-light .divider-custom-line.homepage {
+.divider-custom.divider-light .divider-custom-line{
   background-color: #f3c0d5;
 }
-.divider-custom.divider-light .divider-custom-icon.homepage {
+.divider-custom.divider-light .divider-custom-icon{
   color: #f3c0d5 !important;
 }
 
@@ -10310,6 +10311,7 @@ font-weight: bold;
   font-size: 2rem;
   margin-bottom: 0.2rem;
 }
+
 
 .icon{
   position: relative;
