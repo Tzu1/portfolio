@@ -394,6 +394,7 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 500;
+  line-height: 2.25rem;
 }
 
 .display-1 {
@@ -10271,7 +10272,7 @@ ul.about{
 }
 
 .company{
-font-weight: bold;
+font-weight: bolder;
 }
 
 /* Homepage */
@@ -10323,13 +10324,3 @@ font-weight: bold;
   padding: 2.5rem;
 }
 
-hr, .post-content hr.red-rule {
-  border: 0;
-  height: 0.5em;
-  background: #c66;
-  display: block;
-  clear: both;
-  margin: 0 20em;
-  padding: 0;
-  border-radius: 0.25em;
-}
