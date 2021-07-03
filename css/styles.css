@@ -549,8 +549,8 @@ pre code {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -567,7 +567,7 @@ pre code {
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 960px;
+    max-width: 1140px;
   }
 }
 @media (min-width: 1200px) {
@@ -9981,7 +9981,8 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10114,8 +10115,11 @@ h3 {
   }
 }
 .masthead {
-  padding-top: calc(6rem + 10px);
-  padding-bottom: 6rem;
+  padding-top: calc(6rem + 16px);
+  padding-bottom: 0.2rem;
+}
+.masthead-row{
+  width: 85%;
 }
 .masthead .masthead-heading {
   font-size: 2.5rem;
@@ -10125,20 +10129,29 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
-}
+  width: 20rem;
+  }
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 14px);
-    padding-bottom: 6rem;
+    padding-top: calc(6rem + 60px);
+    padding-bottom: 1rem;
+  }
+  .masthead-row{
+    width: 90%;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .masthead-row {
+    width: auto;
   }
 }
 .portfolio .portfolio-item {
@@ -10232,8 +10245,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .footer {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #fff;
   color: #f3c0d5;
 }
